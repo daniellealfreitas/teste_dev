@@ -225,6 +225,10 @@ namespace Nerdweb {
          */
         public function updatePrepared($tblname, array $datafields, array $updateValues, array $condFields, array $condValues) {
             #TODO: Implementar funcao de update utilizando um esquema similar a funcao selectPrepared ou insertPrepared
+            $datafields = [];
+
+
+
             die("nao implementado ainda");
         }
 
